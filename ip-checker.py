@@ -79,7 +79,6 @@ def get_ports():
         # WebSocket Ports
         (80, "WebSocket (ws://)", "TCP"),
         (443, "WebSocket (wss://)", "TCP"),
-        (8080, "WebSocket (Alt)", "TCP"),
         (8443, "WebSocket (Secure Alt)", "TCP"),
         (3000, "WebSocket (Dev)", "TCP"),
         (9000, "WebSocket (Custom)", "TCP"),
@@ -147,7 +146,6 @@ def main():
         return
 
     port_scanner(host)
-    # input("\nPress Enter to exit...")
 
 
 if __name__ == "__main__":
